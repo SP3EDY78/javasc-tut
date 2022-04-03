@@ -6,5 +6,3 @@ let secondNumber = 3;
 let additionAnswer = firstNumber + secondNumber;
 
 console.log('Answer: ' + additionAnswer);
-
-test
