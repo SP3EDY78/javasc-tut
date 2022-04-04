@@ -15,6 +15,6 @@ function generatePassword() {
     return randomNumber(9) + ' ' + Word2[randomNumber(Word2.length)] + ' ' + Word3[randomNumber(Word3.length)] + 's' + ' ' + Word4[randomNumber(Word4.length)]
 }
 
-for (i=1; i<=3; i++) {
+for (i = 1; i <= 3; i++) {
     console.log(generatePassword());
 }
