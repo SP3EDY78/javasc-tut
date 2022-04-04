@@ -3,7 +3,6 @@ function randomNumber(ceiling, raiseFloor) {
     if (!raiseFloor) raiseFloor = 0;
     return Math.floor(Math.random() * ceiling + raiseFloor);
 }
-console.log(randomNumber(10))
 //can be expanded by appending entries without altering functions' code
 let Word2 = ['happy', 'sad', 'frustrated', 'angry', 'joy', 'surprise']; //function to generate and display to console Word 2 - random emotion
 let Word3 = ['house', 'cat', 'pot', 'pan', 'rock', 'shovel']; //function to generate and display to console Word 3 - random plural noun
