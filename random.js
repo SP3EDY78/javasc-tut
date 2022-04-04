@@ -1,5 +1,6 @@
-function randomNumber() {
-    return Math.ceil(Math.random() * 9);
+function randomNumber(ceiling, raiseFloor) {
+    if (!raiseFloor) raiseFloor = 0;
+    return Math.ceil(Math.random() * ceiling + raiseFloor);
 }
 
 
@@ -18,7 +19,7 @@ function testParams(randInt) {
 
 let i = 0;
 while (i < 10000) {
-    randInt = randomNumber();
+    randInt = randomNumber(9);
     testParams();
     i++;
 }
@@ -26,7 +27,7 @@ while (i < 10000) {
 let test = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 i = 0;
 while (i < 10000) {
-    randInt = randomNumber();
+    randInt = randomNumber(9);
     test[randInt]++;
     i++;
 }
