@@ -19,3 +19,14 @@ console.log(c);
 // console.log(b[4]);
 
 console.log(a.length); //actual number not zero based
+
+// a[10] = 77;
+// console.log(a);
+
+a.push(77);
+console.log(a);
+
+a.pop();
+a.pop();
+a.pop();
+console.log(a);
