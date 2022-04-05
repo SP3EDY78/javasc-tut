@@ -14,8 +14,7 @@ function testParams(randInt) {
 }
 
 
-//let randInt = randomNumber();
-// console.log(randInt);
+// console.log(randomNumber());
 
 let i = 0;
 while (i < 10000) {
